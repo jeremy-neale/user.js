@@ -15,7 +15,7 @@ Firefox is an open-source browser that allows easy custom configuration with a `
 
 This user.js script is designed to be simple and compatible.
 
-1. All `telemetry` is disabled, including default, crash reports, studies,
+1. All `telemetry` is disabled, including default telemetry, crash reports, and studies.
 
 -> Telemetry is data collection/tracking that sends data to Mozilla servers.
 
