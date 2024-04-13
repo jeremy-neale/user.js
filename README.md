@@ -15,10 +15,12 @@ Firefox is an open-source browser that allows easy custom configuration with a u
 
 This user.js script is designed to be simple and compatible.
 
-1. All telemetry is disabled, including default, crash reports, studies,
+1. All `telemetry` is disabled, including default, crash reports, studies,
+
 -> Telemetry is data collection/tracking that sends data to Mozilla servers.
 
-2. Pocket disabled.
+2. `Pocket` disabled.
+
 -> Pocket is the default browser extension to store articles between devices, but it contains sponsored messages.
 
 3. Increased default refresh rate and smoother scrolling to enhance user experience.
