@@ -13,7 +13,7 @@ Firefox is an open-source browser that allows easy custom configuration with a `
 
 # Objectives
 
-This user.js script is designed to be simple and compatible.
+This user.js script is designed to be **simple** and **compatible**.
 
 1. All `telemetry` is disabled, including default telemetry, crash reports, and studies.
 
