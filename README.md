@@ -54,7 +54,7 @@ Unlike some other Firefox "hardening" javascript files, this does not impact coo
 
 -> You can also simply restart your computer.
 
-# Changing Firefox background for homepage and/or new tabs
+# Changing Firefox background on Linux
 
 1. Download the firefox background in `images/` or use another image.
 
