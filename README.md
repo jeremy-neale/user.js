@@ -88,4 +88,5 @@ Unlike some other Firefox "hardening" javascript files, this does not impact coo
 ```
 
 The background provided in `images/` goes together very well with this Firefox theme:
+
 `https://addons.mozilla.org/en-US/firefox/addon/blue-nebula-space-theme/`
