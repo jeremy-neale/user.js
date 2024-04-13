@@ -46,9 +46,9 @@ Unlike some other Firefox "hardening" javascript files, this does not impact coo
 
 -> Find the line that says `Icon:...`
 
-![It should look like this](images/desktop_icon_instructions)
+![It should look like this](images/desktop_icon_instructions.png)
 
-4. Change the path to the new custom desktop icon. If you opened a terminal in step 2, you can use `pwd` to get the path, and then add the file name to the end.
+4. Change the file name at the end of the path to the file name of the new file. After step 2, the image should now be in the directory as the default icon path.
 
 5. Restart your computers environment. In `Linux Mint`, this is `Alt + F2` and then entering `r`.
 
