@@ -8,6 +8,15 @@
     -> Place this (or another) user.js file in this directory and restart Firefox
 */
 
+/* Sections:
+    General
+    Pocket
+    Enhanced Experience
+    Telemetry
+    Browsing Protection
+*/
+
+
 // GENERAL
 
 user_pref("browser.newtabpage.enabled", true); // true=Firefox Home, false=blank page
@@ -25,7 +34,7 @@ user_pref("browser.aboutConfig.showWarning", false); // blocks warning when tryi
 
 
 
-// DISABLE POCKET
+// POCKET
 
 user_pref("extensions.pocket.enabled", false);
 
@@ -41,7 +50,7 @@ user_pref("extensions.pocket.showHome", false);
 
 
 
-// SMOOTH
+// Enhanced experience
 
 user_pref("layout.frame_rate", 160);
 
@@ -133,4 +142,11 @@ user_pref("browser.crashReports.unsubmittedCheck.enabled", false);
 user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false);
 
 // Browsing protection
+
 user_pref("browser.contentblocking.category", "strict"); // [HIDDEN PREF]
+
+user_pref("privacy.donottrackheader.enabled", true);
+
+user_pref("privacy.fingerprintingProtection", true);
+
+user_pref("privacy.globalprivacycontrol.enabled", true);
