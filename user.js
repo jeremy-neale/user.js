@@ -35,33 +35,33 @@ var changeLocationServices = false;
 function main()
 {
     if (generalPreferences) {
-        generalPreferences();
+        applyGeneralPreferences();
     }
 
     if (disableTelemetry) {
-        disableTelemetry();
+        applyDisableTelemetry();
     }
 
     if (disablePocket) {
-        disablePocket();
+        applyDisablePocket();
     }
     
     if (enhanceUserExperience) {
-        enhanceUserExperience();
+        applyEnhanceUserExperience();
     }
 
     if (enhancedBrowsingProtection) {
-        enhancedBrowsingProtection();
+        applyEnhancedBrowsingProtection();
     }
     
     if (changeLocationServices) {
-        changeLocationServices();
+        applyChangeLocationServices();
     }
 }
 
 // -------------------------------------------------------------------------------
 
-function generalPreferences()
+function applyGeneralPreferences()
 {
     user_pref("browser.newtabpage.enabled", true); // true=Firefox Home, false=blank pages
 
@@ -90,7 +90,7 @@ function generalPreferences()
 /** Disables Pocket, the default browser extension that stores article/information between devices
   * -> Contains sponsord content by default
   */
-function disablePocket()
+function applyDisablePocket()
 {
     user_pref("extensions.pocket.enabled", false);
 
@@ -110,7 +110,7 @@ function disablePocket()
 /**
  * Enhanced experience with smoother scrolling and higher framerate
  */
-function enhanceUserExperience()
+function applyEnhanceUserExperience()
 {
     user_pref("layout.frame_rate", 160);
 
@@ -128,7 +128,7 @@ function enhanceUserExperience()
 /**
  * Disable data tracking and collection to Mozilla's servers
  */
-function disableTelemetry()
+function applyDisableTelemetry()
 {
     telemetryGeneral();
     telemetryStudies();
@@ -207,7 +207,7 @@ function telemetryCrashReports()
  * Browsing protection
  * Fingerprinting, `do not track` header, and enabling privacy
  */
-function enhancedBrowsingProtection()
+function applyEnhancedBrowsingProtection()
 {
     // user_pref("browser.contentblocking.category", "strict"); // [HIDDEN PREF]
 
@@ -225,7 +225,7 @@ function enhancedBrowsingProtection()
  * OPTIONAL: Changing the source of location services from Google to Mozilla (or another)
  * Must provide Mozilla API key
  */
-function changeLocationServices()
+function applyChangeLocationServices()
 {
     // Uses mozilla's location services instead of google's (if available)
     user_pref("geo.provider.network.url", "https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%");
