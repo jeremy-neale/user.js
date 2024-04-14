@@ -44,7 +44,7 @@ Unlike some other Firefox "hardening" javascript files, this does not impact coo
 
 ->`vim /usr/share/applications/firefox.desktop`
 
--> Find the line that says `Icon:...`
+-> Find the line that says `Icon=...`
 
 ![It should look like this](images/desktop_icon_instructions.png)
 
