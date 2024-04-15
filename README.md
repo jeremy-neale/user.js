@@ -60,7 +60,9 @@ Unlike some other Firefox "hardening" javascript files, this does not impact coo
 
 2. Move the image to `~/.mozilla/firefox/enfpmt5x.default-release/chrome`
 
--> note that `.mozilla` is a hidden folder, so this can be done in a terminal or by enabling hidden files and folders in file explorer. This can be done with `CTRL + h` or by checking with your operating system's settings.
+-> If `enfpmt5x.default-release` isn't a folder, try looking for the version you are using in `~/.mozilla/firefox/`
+
+-> Note that `.mozilla` is a hidden folder, so this can be done in a terminal or by enabling hidden files and folders in file explorer. This can be done with `CTRL + h` or by checking with your operating system's settings.
 
 3. `vim ~/.mozilla/firefox/enfpmt5x.default-release/chrome/userContent.css`
 
