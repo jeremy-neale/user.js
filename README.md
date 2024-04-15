@@ -23,7 +23,7 @@ This user.js script is designed to be **simple** and **compatible**.
 
 -> Pocket is the default browser extension to store articles between devices, but it contains sponsored messages.
 
-3. Increased default refresh rate and smoother scrolling to enhance user experience.
+3. Increased default refresh rate and smoother scrolling to enhance `user experience`.
 
 Unlike some other Firefox "hardening" javascript files, this does not impact cookies or fingerprinting or other services that make some websites incompatible.
 
