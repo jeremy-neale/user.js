@@ -1,5 +1,5 @@
 # Firefox configuration with user.js
-Firefox is an open-source browser that allows easy custom configuration with a `user.js` file.
+Firefox is an open-source browser that allows custom configured settings with a `user.js` file.
 
 # Installation/usage
 
