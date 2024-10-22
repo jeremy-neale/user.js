@@ -5,7 +5,7 @@ Firefox is an open-source browser that allows custom configured settings with a 
 
 -> Download the `user.js` script from this (or another) repository.
 
--> In Firefox, visit `about:support` and press `Open Directory` in the `Profile Directory` section.
+-> In Firefox, visit `about:support` and press `Open Directory` in the `Profile Directory` or `Profile Folder` section.
 
 -> Add the `user.js` file to this directory.
 
