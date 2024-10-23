@@ -41,8 +41,6 @@ user_pref("browser.newtabpage.activity-stream.default.sites", "");
 
 // Disable Pocket
 
-function applyDisablePocket()
-
 user_pref("extensions.pocket.enabled", false);
 
 user_pref("extensions.pocket.onSaveRecs", false);
