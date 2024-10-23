@@ -11,26 +11,6 @@ Firefox is an open-source browser that allows custom configured settings with a 
 
 -> Restart Firefox.
 
-# Customization
-
-Instead of modifying each individual line of code, simply change the variables at the top of the file to True/False for each category. Each variable triggers a function to run or not, and the individual functions can still be edited for full customization.
-
-Telemetry is the only section that has subdivisions, divided into 3 sections: general, crash reports, and studies. These can be commented out to, for example, disable all telemetry except for crash reports.
-
-There are 6 sections:
-
-var generalPreferences = true;
-
-var disableTelemetry = true; 
-
-var disablePocket = true;
-
-var enhanceUserExperience = true;
-
-var enhancedBrowsingProtection = true;
-
-var changeLocationServices = false;
-
 # Objectives
 
 This user.js script is designed to be **simple** and **compatible**.
